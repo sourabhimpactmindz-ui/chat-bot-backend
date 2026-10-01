@@ -59,6 +59,7 @@ res.on("close", () => {
     res.status(200).json({
       success: true,
       conversationid: conversation._id,
+      title:conversation.title,
       response,
     });
   } catch (error) {
