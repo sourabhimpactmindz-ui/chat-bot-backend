@@ -8,7 +8,7 @@ const conversationSchema = new mongoose.Schema(
         },
         clientId : {
             type : "string",
-            required : true
+            // required : true
         }
     },{timestamps : true}
 
